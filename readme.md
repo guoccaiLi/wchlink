@@ -11,19 +11,21 @@ WCH-Link模块可用于沁恒RISC-V架构MCU在线调试和下载，也可用于
     - . 小巧易收纳；
     - . 通过按键切换模式，方便快捷；
 
-###　模式切换
+### 模式切换 
 按住key键重新上电，指示灯跳变。后续使用中，wch-link 保持切换后模式。<br>
+出厂默认arm模式
+
 | 模式     |  指示灯  |  IDE |  支持芯片 |
 |---|---|---|---|
-|   |   |   |   |
-|   |   |   |   |
+| RISC-V  |  空闲时con灯常灭 | MounRiver Studio  |  WCH 支持两线调试的 RISC-V 芯片 |
+| ARM   | 空闲时con灯常亮   | Keil    |  支持 SWD 协议的 ARM 核芯片  |
 
 
 
 ## 外形图：
 ![外形图](Hdk/Wch-Link01.png)
 
-##　尺寸图：
+## 尺寸图：
 ![尺寸图](Hdk/%E5%B0%BA%E5%AF%B8%E5%9B%BE.PNG)
 
 ## Using steps：
