@@ -27,7 +27,8 @@ wchlink支持波特率如下：<br>
 这些波特率基本上够用了。<br>
 
 ## 驱动安装
-Win10：直接安装提供的“Drv”
+Win10：<br>
+直接安装提供的“Drv” <br>
 ![LinkDrv](Drv/%E6%89%8B%E6%9C%BA7.PNG)
 
 Win7：<br>
