@@ -1,7 +1,8 @@
 # WeAct-wchlink
 
 ## 简介
-WCH-Link模块可用于沁恒RISC-V架构MCU在线调试和下载，也可用于带有SWD接口的ARM 内核MCU的在线调试和下载。同时带有1路串口，方便调试输出。 mini版本v1.0
+WCH-Link模块可用于沁恒RISC-V架构MCU在线调试和下载，也可用于带有SWD接口的ARM 内核MCU的在线调试和下载。同时带有1路串口，方便调试输出。 mini版本v1.0 <br>
+相当于一个mini-dap
 
 ### 特点
     - . Type-C 供电；
@@ -18,9 +19,19 @@ WCH-Link模块可用于沁恒RISC-V架构MCU在线调试和下载，也可用于
 | 模式     |  指示灯  |  IDE |  支持芯片 |
 |---|---|---|---|
 | RISC-V  |  空闲时con灯常灭 | MounRiver Studio  |  WCH 支持两线调试的 RISC-V 芯片 |
-| ARM   | 空闲时con灯常亮   | Keil    |  支持 SWD 协议的 ARM 核芯片  |
+| ARM   | 空闲时con灯常亮   | Keil&openocd&...    |  支持 SWD 协议的 ARM 核芯片  |
 
+## 虚拟串口及支持波特率
+wchlink支持波特率如下：<br>
+1200 2400 4800 9600 14400 19200 38400 57600 115200 230400<br>
+这些波特率基本上够用了。<br>
 
+## 驱动安装
+Win10：直接安装提供的“Drv”
+![LinkDrv](Drv/%E6%89%8B%E6%9C%BA7.PNG)
+
+Win7：<br>
+需要安装CDC设备，请参考Doc中“WCH-Link使用说明-V1.2”
 
 ## 外形图：
 ![外形图](Hdk/Wch-Link01.png)
