@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # WeAct-wchlink
 
 ## 简介
@@ -44,3 +45,11 @@ wchlink支持波特率如下：<br>
 
 ## important : 
 it is a daplink for ARM,and it can be a RISV-V debugger for Qingheng risc-v mcu.
+=======
+Using steps：
+1.Install the wchlink driver ---------Drv
+2.Read Doc--------------------------Doc
+3.Using wchlink by Tools -----------Tools
+
+important : it is a daplink for ARM,and it can be a RISV-V debugger for Qingheng risc-v mcu.
+>>>>>>> 7f6eb05 (WeAct-Wchlink-V1.0)
